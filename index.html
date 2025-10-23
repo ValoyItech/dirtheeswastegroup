@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Essential Meta Tags -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="D irthees Waste Group offers professional e-waste management, recycling, and data destruction services in South Africa — protecting the environment while creating economic opportunities.">
+<meta name="keywords" content="e-waste management, recycling, data destruction, environmental sustainability, South Africa, electronic waste">
+<meta name="author" content="D irthees Waste Group">
+
+<!-- Favicon / Browser Tab Icon -->
+<link rel="icon" type="image/png" href="images/logo.png">
+
+<!-- Open Graph (Facebook, WhatsApp, LinkedIn) -->
+<meta property="og:title" content="D irthees Waste Group – Sustainable E-Waste Management">
+<meta property="og:description" content="Creating a circular economy through responsible electronic waste collection, recycling, and recovery.">
+<meta property="og:image" content="https://dirtheeswastegroup.co.za/images/logo.png">
+<meta property="og:url" content="https://dirtheeswastegroup.co.za">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="D irthees Waste Group">
+
+<!-- Twitter / X Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="D irthees Waste Group – Sustainable E-Waste Management">
+<meta name="twitter:description" content="Turning e-waste into opportunity through collection, recycling, and data-secure processing.">
+<meta name="twitter:image" content="https://dirtheeswastegroup.co.za/images/logo.png">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="https://dirtheeswastegroup.co.za">
+
+<!-- Title -->
+<title>D irthees Waste Group – E-Waste Management in South Africa</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <style>
+    /* --- base styles --- */
+    body{box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;}
+    .gradient-bg{background:linear-gradient(135deg,#4CAF50 0%,#1B5E20 100%);}
+    .glow-effect{box-shadow:0 0 20px rgba(244,199,0,.35);animation:glow 2s ease-in-out infinite alternate}
+    @keyframes glow{from{box-shadow:0 0 20px rgba(244,199,0,.35)}to{box-shadow:0 0 30px rgba(244,199,0,.65)}}
+    .floating{animation:floating 3s ease-in-out infinite}
+    @keyframes floating{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+    .service-card{transition:all .3s ease}
+    .service-card:hover{transform:translateY(-5px);box-shadow:0 10px 25px rgba(0,0,0,.15)}
+    /* --- hero no-flash slider --- */
+    .hero-slider{position:relative;height:100vh;min-height:600px;overflow:hidden;color:#fff}
+    .hero-slider .bg{position:absolute;inset:0;background-size:cover;background-position:center;opacity:0;transition:opacity 1s ease}
+    .hero-slider .bg.active{opacity:1}
+    .hero-slider .overlay{position:absolute;inset:0;background:linear-gradient(135deg,rgba(76,175,80,.2) 0%,rgba(27,94,32,.2) 100%);z-index:1}
+    .hero-slider .content{position:relative;z-index:2;height:100%;display:flex;align-items:center;justify-content:center;text-align:center}
+    .slider-nav{position:absolute;bottom:30px;left:50%;transform:translateX(-50%);z-index:3;display:flex;gap:12px}
+    .nav-dot{width:12px;height:12px;border-radius:50%;background:rgba(255,255,255,.5);cursor:pointer;transition:all .3s}
+    .nav-dot.active{background:#F4C700;transform:scale(1.2)}
+    .arrow-btn{position:absolute;top:50%;transform:translateY(-50%);z-index:3;width:50px;height:50px;border-radius:50%;background:rgba(244,199,0,.8);border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .3s}
+    .arrow-btn:hover{background:#F4C700;transform:translateY(-50%) scale(1.1)}
+    .arrow-left{left:30px}.arrow-right{right:30px}
+  </style>
+</head>
+<body class="font-sans">
+<!-- HEADER (unchanged) -->
+<header class="bg-white shadow-lg sticky top-0 z-50">
+  <nav class="container mx-auto px-6 py-4 flex items-center justify-between">
+    <div class="flex items-center space-x-3">
+      <div class="w-12 h-12 flex items-center justify-center">
+    <img src="images/logo.png" alt="Logo" class="w-full h-full object-contain">
+</div>
+
+      <div>
+        <h1 id="company-name" class="text-xl font-bold" style="color:#1B5E20">D irthees Waste Group</h1>
+        <p  id="slogan"       class="text-sm" style="color:#4CAF50">Keep resources and earn a living</p>
+      </div>
+    </div>
+    <div class="hidden md:flex space-x-8"><a href="services.html" class="text-gray-700 hover:text-green-600">Services</a><a href="about.html" class="text-gray-700 hover:text-green-600">About</a><a href="contact.html" class="text-gray-700 hover:text-green-600">Contact</a></div>
+    <button id="mobile-menu-btn" class="md:hidden p-2"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+  </nav>
+</header>
+
+<!-- MOBILE SIDEBAR (unchanged) -->
+<div id="mobile-sidebar" class="fixed inset-0 z-50 hidden">
+  <div class="fixed inset-0 bg-black/50" onclick="closeMobileMenu()"></div>
+  <div id="sidebar-panel" class="fixed top-0 right-0 h-full w-80 max-w-sm bg-white shadow-xl transform translate-x-full transition-transform duration-300">
+    <div class="flex flex-col h-full">
+      <div class="flex items-center justify-between p-6 border-b">
+        <div class="flex items-center space-x-3">
+          <div class="w-10 h-10 rounded-full flex items-center justify-center" style="background:linear-gradient(135deg,#F4C700 0%,#4CAF50 100%)"><svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg></div><h2 class="text-lg font-bold" style="color:#1B5E20">Menu</h2>
+        </div>
+        <button onclick="closeMobileMenu()" class="p-2 rounded-full hover:bg-gray-100"><svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg></button>
+      </div>
+      <nav class="flex-1 py-6 px-6 space-y-2">
+        <a href="services.html" onclick="closeMobileMenu()" class="flex items-center space-x-3 p-4 rounded-lg hover:bg-gray-50"><div class="w-10 h-10 rounded-full flex items-center justify-center" style="background:#F4C700"><svg class="w-5 h-5 text-black" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><div><p class="font-semibold" style="color:#1B5E20">Services</p><p class="text-sm text-gray-500">Our e-waste solutions</p></div></a>
+        <a href="about.html"   onclick="closeMobileMenu()" class="flex items-center space-x-3 p-4 rounded-lg hover:bg-gray-50"><div class="w-10 h-10 rounded-full flex items-center justify-center" style="background:#4CAF50"><svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg></div><div><p class="font-semibold" style="color:#1B5E20">About</p><p class="text-sm text-gray-500">Why choose us</p></div></a>
+        <a href="contact.html" onclick="closeMobileMenu()" class="flex items-center space-x-3 p-4 rounded-lg hover:bg-gray-50"><div class="w-10 h-10 rounded-full flex items-center justify-center" style="background:#1B5E20"><svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg></div><div><p class="font-semibold" style="color:#1B5E20">Contact</p><p class="text-sm text-gray-500">Get in touch</p></div></a>
+      </nav>
+      <div class="border-t p-6 space-y-3 text-gray-600">
+        <div class="flex items-center space-x-3"><svg class="w-5 h-5" style="color:#4CAF50" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg><span class="text-sm">072 661 5641</span></div>
+        <div class="flex items-center space-x-3"><svg class="w-5 h-5" style="color:#4CAF50" fill="currentColor" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg><span class="text-sm">info@dirtheeswaste.com</span></div>
+        <a href="https://wa.me/27726615641" target="_blank" rel="noopener noreferrer" class="mt-4 w-full flex items-center justify-center space-x-2 px-4 py-3 rounded-lg font-semibold text-white transition-transform hover:scale-105" style="background:#25D366"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/></svg><span>WhatsApp Us</span></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- HERO – no whitening -->
+<section class="hero-slider">
+  <div class="bg active" style="background-image:url('images/hero1.jpg')"></div>
+  <div class="bg"        style="background-image:url('images/hero2.jpg')"></div>
+  <div class="bg"        style="background-image:url('images/hero3.jpg')"></div>
+  <div class="overlay"></div>
+  <div class="content">
+    <div class="container mx-auto px-6">
+      <div class="max-w-4xl mx-auto text-white">
+        <h2 id="hero-title"   class="text-5xl md:text-6xl font-bold mb-6 bounce-in">Sustainable E-Waste Solutions</h2>
+        <p  id="hero-subtitle" class="text-xl md:text-2xl mb-8 opacity-90 slide-up animate">Professional e-waste management services that protect the environment while creating economic opportunities</p>
+        <button id="cta-button" class="px-8 py-4 text-lg font-semibold rounded-full transition-transform hover:scale-105 glow-effect floating" style="background:#F4C700;color:#000">Get Started Today</button>
+      </div>
+    </div>
+  </div>
+  <button class="arrow-btn arrow-left"  onclick="prevSlide()"><svg class="w-6 h-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg></button>
+  <button class="arrow-btn arrow-right" onclick="nextSlide()"><svg class="w-6 h-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></button>
+  <div class="slider-nav">
+    <div class="nav-dot active" onclick="goSlide(0)"></div>
+    <div class="nav-dot"        onclick="goSlide(1)"></div>
+    <div class="nav-dot"        onclick="goSlide(2)"></div>
+  </div>
+</section>
+
+
+<style>
+/* HERO ONLY – no whitening */
+.hero-slider{position:relative;height:100vh;min-height:600px;overflow:hidden}
+.bg{position:absolute;top:0;left:0;width:100%;height:100%;background-size:cover;background-position:center;opacity:0;transition:opacity .8s ease}
+.bg.active{opacity:1}
+.overlay{position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(135deg,rgba(76,175,80,.2) 0%,rgba(27,94,32,.2) 100%)}
+.content{position:relative;z-index:10;height:100%;display:flex;align-items:center;justify-content:center;text-align:center}
+.arrows{position:absolute;top:50%;transform:translateY(-50%);z-index:20}
+.arrow-btn{position:absolute;width:50px;height:50px;border-radius:50%;background:rgba(244,199,0,.8);border:none;cursor:pointer;display:grid;place-items:center;transition:.3s}
+.arrow-btn:hover{background:#F4C700;transform:scale(1.1)}
+.left{left:30px}
+.right{right:30px}
+.dots{position:absolute;bottom:30px;left:50%;transform:translateX(-50%);z-index:20;display:flex;gap:12px}
+.dot{width:12px;height:12px;border-radius:50%;background:rgba(255,255,255,.5);cursor:pointer;transition:.3s}
+.dot.active{background:#F4C700;transform:scale(1.2)}
+</style>
+
+<!-- MINI ABOUT PREVIEW -->
+<section id="about-preview" class="py-20" style="background-color:hsl(180, 100%, 100%);">
+  <div class="container mx-auto px-6">
+    <div class="grid lg:grid-cols-2 gap-12 items-center">
+      
+      <!-- Image -->
+      <div class="relative" data-aos="fade-right" data-aos-duration="1000">
+        <img src="images/about.png" alt="Dirthees Waste Group" class="rounded-2xl shadow-lg w-full object-cover">
+        <div class="absolute inset-0 rounded-2xl bg-gradient-to-t from-black/30 to-transparent"></div>
+      </div>
+
+      <!-- Text -->
+      <div data-aos="fade-left" data-aos-duration="1000">
+        <h3 class="text-4xl font-bold mb-4" style="color:#1B5E20;">About D irthees Waste Group</h3>
+        <p class="text-gray-700 text-lg mb-6 leading-relaxed">
+          D irthees Waste Group is a South African e-waste management company dedicated to building a circular economy 
+          where discarded electronics become valuable resources. We offer safe collection, data-secure processing, and 
+          sustainable recycling — protecting the environment while creating local employment opportunities.
+        </p>
+        <p class="text-gray-700 mb-8 leading-relaxed">
+          Through innovation and responsibility, we aim to minimize environmental impact, support compliance with 
+          e-waste regulations, and promote community growth through sustainable resource recovery.
+        </p>
+        <a href="about.html" 
+           class="inline-block px-8 py-3 rounded-full font-semibold transition-transform hover:scale-105"
+           style="background:#4CAF50; color:white;">Learn More</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Services -->
+<section id="services" class="py-20" style="background-color:#E9FBE5;">
+  <div class="container mx-auto px-6 relative z-10">
+    <div class="text-center mb-16">
+      <h3 id="services-title" class="text-4xl font-bold mb-4" style="color:#1B5E20">Our Services</h3>
+      <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+        Comprehensive e-waste management solutions designed to maximize resource recovery and environmental protection
+      </p>
+    </div>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      <div class="bg-white rounded-xl p-8 shadow-lg">
+        <div class="w-16 h-16 rounded-full mb-6 flex items-center justify-center floating" style="background:#F4C700">
+          <svg class="w-8 h-8 text-black" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M19 7h-3V6a4 4 0 0 0-8 0v1H5a1 1 0 0 0-1 1v11a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V8a1 1 0 0 0-1-1zM10 6a2 2 0 0 1 4 0v1h-4V6zm8 13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V9h2v1a1 1 0 0 0 2 0V9h4v1a1 1 0 0 0 2 0V9h2v10z"/>
+          </svg>
+        </div>
+        <h4 class="text-xl font-bold mb-4" style="color:#1B5E20">E-Waste Collection & Pick up</h4>
+        <p class="text-gray-600">Convenient and secure collection services for all types of electronic waste from businesses and institutions.</p>
+      </div>
+
+      <div class="bg-white rounded-xl p-8 shadow-lg">
+        <div class="w-16 h-16 rounded-full mb-6 flex items-center justify-center floating" style="background:#4CAF50;animation-delay:.5s">
+          <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+          </svg>
+        </div>
+        <h4 class="text-xl font-bold mb-4" style="color:#1B5E20">Sorting, Storage & Basic Dismantling</h4>
+        <p class="text-gray-600">Professional sorting and safe dismantling processes to prepare materials for optimal recovery and recycling.</p>
+      </div>
+
+      <div class="bg-white rounded-xl p-8 shadow-lg">
+        <div class="w-16 h-16 rounded-full mb-6 flex items-center justify-center floating" style="background:#1B5E20;animation-delay:1s">
+          <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+          </svg>
+        </div>
+        <h4 class="text-xl font-bold mb-4" style="color:#1B5E20">Recycling</h4>
+        <p class="text-gray-600">Advanced recycling processes that transform e-waste into valuable raw materials for new products.</p>
+      </div>
+
+      <div class="bg-white rounded-xl p-8 shadow-lg">
+        <div class="w-16 h-16 rounded-full mb-6 flex items-center justify-center floating" style="background:#F4C700;animation-delay:1.5s">
+          <svg class="w-8 h-8 text-black" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm3.5 6L12 10.5 8.5 8 12 5.5 15.5 8zM12 19c-3.87 0-7-3.13-7-7 0-.84.16-1.65.43-2.4l2.71 1.49L12 9.51l3.86 1.58 2.71-1.49c.27.75.43 1.56.43 2.4 0 3.87-3.13 7-7 7z"/>
+          </svg>
+        </div>
+        <h4 class="text-xl font-bold mb-4" style="color:#1B5E20">Refurbishing & Reselling</h4>
+        <p class="text-gray-600">Extending product lifecycles through professional refurbishment and responsible resale programs.</p>
+      </div>
+
+      <div class="bg-white rounded-xl p-8 shadow-lg">
+        <div class="w-16 h-16 rounded-full mb-6 flex items-center justify-center floating" style="background:#4CAF50;animation-delay:2s">
+          <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z"/>
+          </svg>
+        </div>
+        <h4 class="text-xl font-bold mb-4" style="color:#1B5E20">Material Recovery</h4>
+        <p class="text-gray-600">Maximizing the recovery of precious metals, rare earth elements, and other valuable materials from e-waste.</p>
+      </div>
+
+      <div class="bg-white rounded-xl p-8 shadow-lg">
+        <div class="w-16 h-16 rounded-full mb-6 flex items-center justify-center floating" style="background:#1B5E20;animation-delay:2.5s">
+          <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+          </svg>
+        </div>
+        <h4 class="text-xl font-bold mb-4" style="color:#1B5E20">EPR Compliance Support</h4>
+        <p class="text-gray-600">Expert guidance and support to help businesses meet Extended Producer Responsibility requirements and regulations.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- ABOUT -->
+<section id="about" class="py-20 bg-white relative overflow-hidden">
+  <div class="absolute top-10 left-10 w-32 h-32 bg-yellow-200 rounded-full opacity-20 floating"></div>
+  <div class="absolute bottom-10 right-10 w-24 h-24 bg-green-200 rounded-full opacity-20 floating" style="animation-delay:1s"></div>
+  <div class="absolute top-1/2 left-1/4 w-16 h-16 bg-green-300 rounded-full opacity-15 floating" style="animation-delay:2s"></div>
+  <div class="container mx-auto px-6 relative z-10">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-4xl font-bold mb-8" style="color:#1B5E20">Why Choose D irthees Waste Group?</h3>
+      <p class="text-xl text-gray-600 mb-12">We're creating a circular economy where electronic waste becomes a valuable resource, delivering sustainable solutions that benefit both the environment and local communities.</p>
+      <div class="grid md:grid-cols-3 gap-8 mt-16">
+        <div class="text-center">
+          <div class="w-20 h-20 rounded-full mx-auto mb-6 flex items-center justify-center glow-effect floating" style="background:#F4C700"><span class="text-3xl">🌱</span></div>
+          <h4 class="text-xl font-bold mb-4" style="color:#1B5E20">Environmental Impact</h4>
+          <p class="text-gray-600">Reducing landfill waste and preventing toxic materials from harming the environment.</p>
+        </div>
+        <div class="text-center">
+          <div class="w-20 h-20 rounded-full mx-auto mb-6 flex items-center justify-center glow-effect floating" style="background:#4CAF50;animation-delay:1s"><span class="text-3xl text-white">💼</span></div>
+          <h4 class="text-xl font-bold mb-4" style="color:#1B5E20">Economic Opportunities</h4>
+          <p class="text-gray-600">Creating jobs and generating income through sustainable waste management practices.</p>
+        </div>
+        <div class="text-center">
+          <div class="w-20 h-20 rounded-full mx-auto mb-6 flex items-center justify-center glow-effect floating" style="background:#1B5E20;animation-delay:2s"><span class="text-3xl text-white">🔒</span></div>
+          <h4 class="text-xl font-bold mb-4" style="color:#1B5E20">Secure & Compliant</h4>
+          <p class="text-gray-600">Ensuring data security and full compliance with environmental regulations.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-20" style="background-color: #bdf07b;"> <!-- soft light gray -->
+  <div class="container mx-auto px-6">
+    <div class="text-center mb-16">
+      <h3 id="contact-title" class="text-4xl font-bold mb-4" style="color:#1B5E20">Ready to Get Started?</h3>
+      <p id="contact-subtitle" class="text-xl text-gray-600 max-w-2xl mx-auto">Contact us today to learn how we can help you manage your e-waste responsibly while creating value from your resources.</p>
+    </div>
+
+    <div class="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
+      <!-- Info -->
+      <div class="bg-gray-50 rounded-xl p-8 space-y-6">
+        <h4 class="text-2xl font-bold" style="color:#1B5E20">Get In Touch</h4>
+
+        <div class="flex items-center space-x-4">
+          <div class="w-12 h-12 rounded-full flex items-center justify-center" style="background:#F4C700">
+            <svg class="w-6 h-6 text-black" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+            </svg>
+          </div>
+          <div>
+            <p class="font-semibold" style="color:#1B5E20">Email</p>
+            <p class="text-gray-600">info@dirtheeswaste.com</p>
+          </div>
+        </div>
+
+        <div class="flex items-center space-x-4">
+          <div class="w-12 h-12 rounded-full flex items-center justify-center" style="background:#4CAF50">
+            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+            </svg>
+          </div>
+          <div>
+            <p class="font-semibold" style="color:#1B5E20">Phone</p>
+            <p class="text-gray-600">072 661 5641</p>
+          </div>
+        </div>
+
+        <div class="flex items-center space-x-4">
+          <div class="w-12 h-12 rounded-full flex items-center justify-center" style="background:#1B5E20">
+            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+            </svg>
+          </div>
+          <div>
+            <p class="font-semibold" style="color:#1B5E20">Address</p>
+            <p class="text-gray-600">101-16th Avenue, Alexandra 2090</p>
+          </div>
+        </div>
+
+        <!-- Operating Hours Box -->
+        <div class="mt-8 p-6 rounded-lg" style="background-color: #F4C700; background-opacity: 0.1;">
+          <h5 class="text-lg font-bold mb-4" style="color: #1B5E20;">Operating Hours</h5>
+          <div class="space-y-2 text-gray-700">
+            <p><strong>Monday - Friday:</strong> 09:00 - 16:00</p>
+            <p><strong>Weekends:</strong> 09:00 - 14:30</p>
+            <p><strong>Holidays:</strong> Closed</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- WhatsApp Form -->
+      <div class="bg-gray-50 rounded-xl p-8">
+        <h4 class="text-2xl font-bold mb-2" style="color:#1B5E20">Quick WhatsApp Enquiry</h4>
+        <p class="text-gray-600 mb-6">Tell us what you need and we'll reply straight away.</p>
+        <form id="whatsapp-form" class="space-y-4">
+          <input type="text" name="name" required
+                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500"
+                 placeholder="Your Name">
+
+          <input type="email" name="email" required
+                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500"
+                 placeholder="Email Address">
+
+          <input type="tel" name="phone"
+                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500"
+                 placeholder="Phone (optional)">
+
+          <select name="service" required
+                  class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500">
+            <option value="">Select a service</option>
+            <option>E-Waste Collection &amp; Pickup</option>
+            <option>Sorting &amp; Dismantling</option>
+            <option>Recycling Services</option>
+            <option>Refurbishing &amp; Reselling</option>
+            <option>Material Recovery</option>
+            <option>EPR Compliance Support</option>
+            <option>General Inquiry</option>
+          </select>
+
+          <textarea name="message" rows="4" required
+                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500"
+                    placeholder="Tell us about your e-waste needs..."></textarea>
+
+          <button type="submit"
+                  class="w-full px-6 py-3 rounded-lg font-semibold text-white transition-transform hover:scale-105 glow-effect"
+                  style="background:#25D366">Send via WhatsApp</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ==========  UNIVERSAL FOOTER  ========== -->
+<footer class="bg-black text-white">
+  <div class="container mx-auto px-6 py-12">
+
+    <!-- 1.  Top row: brand + quick links + contacts -->
+    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+
+    <!-- Brand -->
+<div class="lg:col-span-1">
+  <div class="flex items-center space-x-3 mb-4">
+    <div class="w-16 h-16 flex items-center justify-center">
+      <img src="images/footer.png" alt="Logo" class="w-full h-full object-contain">
+    </div>
+    <span class="text-2xl font-bold">D irthees Waste Group</span>
+  </div>
+
+  <p class="text-yellow-400 text-sm">Keep resources and earn a living</p>
+</div>
+
+
+      <!-- Services -->
+      <div>
+        <h4 class="text-lg font-semibold mb-4">Services</h4>
+        <ul class="space-y-2 text-sm text-gray-400">
+          <li><a href="services.html#collection" class="hover:text-white transition">E-Waste Collection</a></li>
+          <li><a href="services.html#data-destruction" class="hover:text-white transition">Secure Data Destruction</a></li>
+          <li><a href="services.html#recovery" class="hover:text-white transition">Material Recovery</a></li>
+          <li><a href="services.html#compliance" class="hover:text-white transition">EPR & Compliance</a></li>
+          <li><a href="services.html#consultation" class="hover:text-white transition">Consultation</a></li>
+        </ul>
+      </div>
+
+      <!-- Company -->
+      <div>
+        <h4 class="text-lg font-semibold mb-4">Company</h4>
+        <ul class="space-y-2 text-sm text-gray-400">
+          <li><a href="about.html" class="hover:text-white transition">About Us</a></li>
+          <li><a href="about.html#story" class="hover:text-white transition">Our Story</a></li>
+          <li><a href="about.html#values" class="hover:text-white transition">Core Values</a></li>
+          <li><a href="index.html#impact" class="hover:text-white transition">Impact Report</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact & Social -->
+      <div>
+        <h4 class="text-lg font-semibold mb-4">Contact</h4>
+        <ul class="space-y-2 text-sm text-gray-400">
+          <li class="flex items-start"><span class="mr-2">📧</span><a href="mailto:info@dirtheeswaste.com" class="hover:text-white transition">info@dirtheeswaste.com</a></li>
+          <li class="flex items-start"><span class="mr-2">📞</span><a href="tel:+27726615641" class="hover:text-white transition">072 661 5641</a></li>
+          <li class="flex items-start"><span class="mr-2">📍</span><span>101-16th Avenue, Alexandra 2090</span></li>
+        </ul>
+
+        <!-- Social icons -->
+        <div class="flex space-x-4 mt-4">
+          <a href="https://wa.me/27726615641" target="_blank" aria-label="WhatsApp" class="w-8 h-8 rounded-full bg-green-600 flex items-center justify-center hover:scale-110 transition">
+            <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/></svg>
+          </a>
+          <!-- Add more social icons as needed -->
+        </div>
+      </div>
+    </div>
+
+    <!-- 2.  Bottom row: legal -->
+    <div class="border-t border-gray-800 mt-8 pt-6 text-center text-xs text-gray-500">
+      <p>© 2025 Dirthees Waste Group (Pty) Ltd. All rights reserved.</p>
+      <p class="mt-1">Reg. No. <span class="uppercase">yyyy/xxxxxx/xx</span> | EPR Reg. E-Waste-ZA-012345</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ----------  HERO-SLIDER  ---------- */
+const bgs   = document.querySelectorAll('.hero-slider .bg');
+const dots  = document.querySelectorAll('.hero-slider .nav-dot');
+let idx     = 0;
+let auto    = setInterval(nextSlide, 5000);
+
+function showSlide(i) {
+  bgs.forEach((bg, j)   => bg.classList.toggle('active', j === i));
+  dots.forEach((d, j)   => d.classList.toggle('active', j === i));
+  idx = i;
+}
+function nextSlide() { showSlide((idx + 1) % bgs.length); }
+function prevSlide() { showSlide((idx - 1 + bgs.length) % bgs.length); }
+function goSlide(i)  { clearInterval(auto); showSlide(i); auto = setInterval(nextSlide, 5000); }
+
+/* ----------  MOBILE MENU  ---------- */
+const btn   = document.getElementById('mobile-menu-btn');
+const side  = document.getElementById('mobile-sidebar');
+const panel = document.getElementById('sidebar-panel');
+btn.addEventListener('click', () => {
+  side.classList.remove('hidden');
+  setTimeout(() => panel.classList.remove('translate-x-full'), 10);
+});
+function closeMobileMenu() {
+  panel.classList.add('translate-x-full');
+  setTimeout(() => side.classList.add('hidden'), 300);
+}
+
+/* ----------  SMOOTH SCROLL  ---------- */
+document.querySelectorAll('a[href^="#"]').forEach(a =>
+  a.addEventListener('click', e => {
+    e.preventDefault();
+    document.querySelector(a.getAttribute('href'))?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  })
+);
+
+/* ----------  WHATSAPP FORM  ---------- */
+document.getElementById('whatsapp-form').addEventListener('submit', e => {
+  e.preventDefault();
+  const fd  = new FormData(e.target);
+  let msg   = `Hello! I'm interested in your e-waste services.\n\n` +
+              `*Name:* ${fd.get('name')}\n*Email:* ${fd.get('email')}`;
+  if (fd.get('phone')) msg += `\n*Phone:* ${fd.get('phone')}`;
+  msg += `\n*Service:* ${fd.get('service')}\n\n*Message:*\n${fd.get('message')}`;
+  window.open(`https://wa.me/27726615641?text=${encodeURIComponent(msg)}`, '_blank');
+  e.target.reset();
+});
+
+/* ----------  SDK STUB  ---------- */
+window.elementSdk ||= { init() {}, setConfig() {}, getConfig: () => ({}) };
+
+AOS.init({
+  duration: 1000,
+  once: true
+});
+
+</script>
+</body>
+</html>
