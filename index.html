@@ -35,6 +35,13 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <style>
+
+    /* kill horizontal scroll on mobile */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  box-sizing: border-box;
+}
     /* --- base styles --- */
     body{box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;}
     .gradient-bg{background:linear-gradient(135deg,#4CAF50 0%,#1B5E20 100%);}
@@ -72,7 +79,7 @@
         <p  id="slogan"       class="text-sm" style="color:#4CAF50">Keep resources and earn a living</p>
       </div>
     </div>
-    <div class="hidden md:flex space-x-8"><a href="services.html" class="text-gray-700 hover:text-green-600">Services</a><a href="about.html" class="text-gray-700 hover:text-green-600">About</a><a href="contact.html" class="text-gray-700 hover:text-green-600">Contact</a></div>
+    <div class="hidden md:flex space-x-8"><a href="index.html" class="text-gray-700 hover:text-green-600 transition-colors">Home</a><a href="services.html" class="text-gray-700 hover:text-green-600">Services</a><a href="about.html" class="text-gray-700 hover:text-green-600">About</a><a href="contact.html" class="text-gray-700 hover:text-green-600">Contact</a></div>
     <button id="mobile-menu-btn" class="md:hidden p-2"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg></button>
   </nav>
 </header>
@@ -84,7 +91,9 @@
     <div class="flex flex-col h-full">
       <div class="flex items-center justify-between p-6 border-b">
         <div class="flex items-center space-x-3">
-          <div class="w-10 h-10 rounded-full flex items-center justify-center" style="background:linear-gradient(135deg,#F4C700 0%,#4CAF50 100%)"><svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg></div><h2 class="text-lg font-bold" style="color:#1B5E20">Menu</h2>
+          <!-- Transparent floating logo -->
+          <img src="images/logo.png" alt="Logo" class="w-10 h-10 object-contain">
+          <h2 class="text-lg font-bold" style="color:#1B5E20">Menu</h2>
         </div>
         <button onclick="closeMobileMenu()" class="p-2 rounded-full hover:bg-gray-100"><svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg></button>
       </div>
@@ -117,8 +126,7 @@
       </div>
     </div>
   </div>
-  <button class="arrow-btn arrow-left"  onclick="prevSlide()"><svg class="w-6 h-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg></button>
-  <button class="arrow-btn arrow-right" onclick="nextSlide()"><svg class="w-6 h-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></button>
+  
   <div class="slider-nav">
     <div class="nav-dot active" onclick="goSlide(0)"></div>
     <div class="nav-dot"        onclick="goSlide(1)"></div>

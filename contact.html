@@ -31,6 +31,13 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <style>
+
+    /* kill horizontal scroll on mobile */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  box-sizing: border-box;
+}
         body {
             box-sizing: border-box;
         }
@@ -182,14 +189,10 @@
     <div class="flex flex-col h-full"><!-- Header -->
      <div class="flex items-center justify-between p-6 border-b">
       <div class="flex items-center space-x-3">
-       <div class="w-10 h-10 rounded-full flex items-center justify-center" style="background: linear-gradient(135deg, #F4C700 0%, #4CAF50 100%);">
-        <svg class="w-6 h-6 text-white" fill="currentColor" viewbox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z" />
-        </svg>
-       </div>
-       <div>
-        <h2 class="text-lg font-bold" style="color: #1B5E20;">Menu</h2>
-       </div>
-      </div><button onclick="closeMobileMenu()" class="p-2 rounded-full hover:bg-gray-100 transition-colors">
+          <!-- Transparent floating logo -->
+          <img src="images/logo.png" alt="Logo" class="w-10 h-10 object-contain">
+          <h2 class="text-lg font-bold" style="color:#1B5E20">Menu</h2>
+        </div><button onclick="closeMobileMenu()" class="p-2 rounded-full hover:bg-gray-100 transition-colors">
        <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
        </svg></button>
      </div><!-- Navigation Links -->
